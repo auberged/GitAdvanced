@@ -3,7 +3,11 @@
 int main() {
 	printf("Hello World\n");
 
-	printf("Es wurde die Zeile im Develop Branch editiert!")
+	sum(5, 4);
 
 	return 0;
+}
+
+int sum(int a, int b) {
+	return a + b;
 }
