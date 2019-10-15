@@ -3,7 +3,11 @@
 int main() {
 	printf("Hello World\n");
 
-	printf("Es wurde die Zeile im Master Branch direkt über das Github Repository editiert!")
+	sum(5, 4);
 
 	return 0;
+}
+
+int sum(int a, int b) {
+	return a + b;
 }
